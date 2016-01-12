@@ -13,9 +13,9 @@ Our app has two pages:
 
 ## Instructions
 
-Write specs for the sessions controller and write the sessions controller. This will work pretty much identically to in the sessions controller lab.
+Build out the `SessionsController` and write specs for it. This will work pretty much identically to the sessions controller lab.
 
-There are some existing tests of the application controller methods `current_user`. That method doesn't exist, so the specs are failing. Go ahead and write it.
+There are some existing tests for the application controller methods `current_user`. That method doesn't exist, so the specs are failing. Go ahead and write it.
 
 Finally, write a `SecretsController` and make its specs pass. Use a `before_filter` to prevent any route from being accessed without login.
 
