@@ -13,17 +13,17 @@ Our app has two pages:
 
 ## Instructions
 
-Build out the `SessionsController` and write specs for it. This will work pretty much identically to the sessions controller lab.
+1. Build out the `SessionsController`.
 
-There are some existing tests for the application controller methods `current_user`. That method doesn't exist, so the specs are failing. Go ahead and write it.
+2. Write a current_user method.
 
-Finally, write a `SecretsController` and make its specs pass. Use a `before_filter` to prevent any route from being accessed without login.
+3. Write a `SecretsController` using a `before_filter` to prevent any route from being accessed without logging in.
 
-Finally, ensure your routes are wired to the appropriate controllers, and your application flows appropriately. I should be able to:
+Use the specs as your guide, but we'd like the following behavoir. We should be able to:
 
-  * visit the root of your app and be redirected to a login page,
-  * if I fail to enter a name on the login page, I should be redirected there until I do.
-  * once I do, I should get to the welcome page, greeting me and linking me to the secret page.
-  * what's on the secret page is up to you. Its URL is also up to you. But if I visit that URL without logging in, I must be redirected to the login page. Under no circumstances must we allow people who are not logged in to see the secret.
+  * Visit the root of the app and be redirected to a login page,
+  * If a user fails to enter their name on the login page, they should be redirected there until they do.
+  * Once logged in, a user should see the welcome page.  This page should greet the user and linking me to the secret page.
+  * The content and URL of the secret page are up to you. However, if we visit that URL without logging in, we should be redirected to the login page. Under no circumstances should we allow people who are not logged in to see the secret.
 
 Happy coding.
