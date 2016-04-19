@@ -17,7 +17,7 @@ Our app has two pages:
 
 2. Write a current_user method.
 
-3. Write a `SecretsController` using a `before_filter` to prevent any route from being accessed without logging in.
+3. Write a `SecretsController` using a `before_action` to prevent any route from being accessed without logging in.
 
 Use the specs as your guide, but we'd like the following behavoir. We should be able to:
 
@@ -27,3 +27,5 @@ Use the specs as your guide, but we'd like the following behavoir. We should be 
   * The content and URL of the secret page are up to you. However, if we visit that URL without logging in, we should be redirected to the login page. Under no circumstances should we allow people who are not logged in to see the secret.
 
 Happy coding.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/login_required_lab'>Login Required Lab</a> on Learn.co and start learning to code for free.</p>
