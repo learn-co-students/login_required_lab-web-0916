@@ -6,7 +6,7 @@ We're going to make a Rails app that requires you to be logged in to see one of 
 
 ## Introduction
 
-Our app has two pages:
+Our app has three pages:
   1. A login page, where the user enters their username. No passwords, we'll just trust them. After they're logged in, they're taken to...
   2. A user homepage, which says, "Hi, #{username}", and has a link to the secret page, which is...
   3. A page with a secret on it, which you must be logged in to see.
@@ -29,3 +29,5 @@ Use the specs as your guide, but we'd like the following behavoir. We should be 
 Happy coding.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/login_required_lab'>Login Required Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/login_required_lab'>Login Required Lab</a> on Learn.co and start learning to code for free.</p>
