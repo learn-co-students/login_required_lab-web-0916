@@ -19,7 +19,7 @@ Our app has three pages:
 
 3. Write a `SecretsController` using a `before_action` to prevent any route from being accessed without logging in.
 
-Use the specs as your guide, but we'd like the following behavoir. We should be able to:
+Use the specs as your guide, but we'd like the following behavior. We should be able to:
 
   * Visit the root of the app and be redirected to a login page,
   * If a user fails to enter their name on the login page, they should be redirected there until they do.
