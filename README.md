@@ -2,8 +2,6 @@
 
 ## Objectives
 
-hello
-
 We're going to make a Rails app that requires you to be logged in to see one of its pages.
 
 ## Introduction
